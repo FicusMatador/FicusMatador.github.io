@@ -1,8 +1,8 @@
 /*Release container*/
 
 .release {
-    width: 90%;
-    height: 6.8rem;
+    width: 94%;
+    height: 7rem;
     display: grid;
     background-color: var(--background-release);
     vertical-align: middle;
@@ -16,7 +16,7 @@
 
 .release:hover {
     transition: all ease-out 200ms 0ms;
-    height: 10rem;
+    height: 12rem;
     background-color: var(--hover-release);
     box-shadow: 0px 0px 20px 0px var(--box-shadow);
 }
@@ -26,6 +26,7 @@
     transition-duration: 250ms;
 }
 
+
 /*Album container*/
 
 .album_info {
@@ -34,23 +35,22 @@
     padding: 0px;
 }
 
+
 /*Info*/
 
 .album_img {
-    width: 6rem;
-    padding: 0px;
-    height: 6rem;
+    width: 8rem;
+    height: 8rem;
     background-color: var(--placeholder);
-    border-radius: 20px;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
+    border-radius: 20%;
+    margin: 0rem;
     float: left;
 }
 
 .title {
     font-size: 2rem;
     text-align: left;
-    width: 70%;
+    width: 80%;
     float: left;
     height: 2rem;
     margin-top: 0rem;
@@ -67,22 +67,18 @@
     align-content: center;
 }
 
+
 /*RRSS*/
 
 .album_rrss {
     height: 3rem;
     width: 100%;
     overflow-x: hidden;
-    /*hehe nice*/
-    margin: 0.2rem;
-    margin-top: 0.4rem;
-    padding-left: 0.9rem;
+    margin: 1rem;
     display: flow;
     overflow: visible;
     align-items: center;
 }
-
-
 
 .album_rrss img {
     height: 2.5rem;
@@ -106,16 +102,16 @@
     border-radius: 1.25rem;
     text-align: center;
     margin-top: 0rem;
+    margin-right: 1rem;
     font-size: 1rem;
 }
 
 .album_rrss a:hover {
     transition-duration: 250ms;
-    width: 8.8rem;
+    width: 10rem;
     background-color: var(--hover-rrss);
     box-shadow: 0px 0px 10px 0px #00000044;
 }
-
 
 @media (prefers-color-scheme: dark) {
      :root {
